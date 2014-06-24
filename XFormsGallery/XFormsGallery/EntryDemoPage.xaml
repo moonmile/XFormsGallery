@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XFormsGallery.EntryDemoPage">
+	<StackLayout>
+		<Label Text="Entry" Font="50" HorizontalOptions="Center"></Label>
+		<Entry Keyboard="Email" Placeholder="Enter email address" VerticalOptions="CenterAndExpand" ></Entry>
+		<Entry Keyboard="Text" Placeholder="Enter password" VerticalOptions="CenterAndExpand" ></Entry>
+		<Entry Keyboard="Telephone" Placeholder="Enter phone number" VerticalOptions="CenterAndExpand" ></Entry>
+	</StackLayout>						
+</ContentPage>

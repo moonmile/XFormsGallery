@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XFormsGallery.StepperDemoPage">
+	<StackLayout>
+		<Label Text="Stepper" Font="50" HorizontalOptions="Center"></Label>
+		<Stepper
+			Minimum="0" Maximum="10" Increment="0.1"
+			HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+			ValueChanged="OnStepperValueChanged" />
+		<Label x:Name="label" 
+			Text="Stepper value is 0" Font="Large" 
+			HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Label>
+	</StackLayout>						
+</ContentPage>

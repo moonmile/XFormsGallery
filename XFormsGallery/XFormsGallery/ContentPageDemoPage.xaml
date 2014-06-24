@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XFormsGallery.ContentPageDemoPage">
+	<StackLayout>
+		<Label Text="ContentPage" Font="50" HorizontalOptions="Center"></Label>
+		<Label Text="ContentPage is the simplest type of page." Font="Large" />
+		<Label Font="Large">
+			<Label.Text>The content of a ContentPage is generally a layout of some sort that can then be a parent to multiple children.</Label.Text>
+		</Label>
+		<Label Font="Large">
+			<Label.Text>This ContentPage contains a StackLayout, which in turn contains four Label views (including the large one at the top)</Label.Text>
+		</Label>
+	</StackLayout>						
+</ContentPage>

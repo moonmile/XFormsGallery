@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XFormsGallery.GridDemoPage">
+	<Grid VerticalOptions="FillAndExpand">
+		<RowDefinitionCollection>
+			<RowDefinition Height="Auto" />
+			<RowDefinition Height="Auto" />
+			<RowDefinition Height="1*" />
+			<RowDefinition Height="100" />
+		</RowDefinitionCollection>
+		<ColumnDefinitionCollection>
+			<ColumnDefinition Width="Auto" />
+			<ColumnDefinition Width="1*" />
+			<ColumnDefinition Width="100" />
+		</ColumnDefinitionCollection>
+
+		<Label Text="Grid" Font="50" HorizontalOptions="Center" 
+			Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" />
+		<Label Text = "Autosized cell" TextColor="White" BackgroundColor="Blue" Grid.Column="0" Grid.Row="1" />
+		<BoxView Color="Silver" HeightRequest="0" Grid.Column="1" Grid.Row="1" />
+		<BoxView Color="Teal" Grid.Column="0" Grid.Row="2" />
+		<Label Grid.Column="1" Grid.Row="2" 
+			Text="Leftover space" TextColor="Purple" BackgroundColor="Aqua" XAlign="Center" YAlign="Center" />
+		<Label Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="3"
+			Text="Span two rows (or more if you want)" TextColor="Yellow" BackgroundColor="Navy" XAlign="Center" YAlign="Center" />
+		<Label Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="3" Grid.RowSpan="2"
+			Text="Span 2 columns" TextColor="Blue"  BackgroundColor="Yellow" XAlign="Center" YAlign="Center" />
+		<Label Grid.Column="2"  Grid.Row="3" 
+			Text="Fixed 100x100" TextColor="Aqua"  BackgroundColor="Red" XAlign="Center" YAlign="Center" />
+	</Grid>					
+</ContentPage>

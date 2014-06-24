@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XFormsGallery.SwitchDemoPage">
+	<StackLayout>
+		<Label Text="Switch" Font="50" HorizontalOptions="Center"></Label>
+		<Switch HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+			Toggled="switcher_Toggled" />
+		<Label x:Name="label" 
+			Text="Switch is now False" Font="Large" 
+			HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Label>
+	</StackLayout>						
+</ContentPage>

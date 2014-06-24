@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XFormsGallery.ImageCellDemoPage">
+	<StackLayout>
+		<Label Text="ImageCell" Font="50" HorizontalOptions="Center"></Label>
+		<TableView>
+			<TableView.Root>
+				<TableRoot>
+					<ImageCell ImageSource="ide_xamarin_studio.png" 
+						Text = "This is an ImageCell"
+						Detail = "This is some detail text" />
+				</TableRoot>
+			</TableView.Root>
+		</TableView>
+	</StackLayout>						
+</ContentPage>

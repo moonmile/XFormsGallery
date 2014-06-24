@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XFormsGallery.ActivityIndicatorDemoPage">
+	<StackLayout>
+		<Label Text="ActivityIndicator" Font="50" HorizontalOptions="Center"></Label>
+		<ActivityIndicator IsRunning="True" VerticalOptions="CenterAndExpand">
+			<ActivityIndicator.Color>
+				<OnPlatform x:TypeArguments="Color">
+					<OnPlatform.iOS>Black</OnPlatform.iOS>
+					<OnPlatform.Android>Default</OnPlatform.Android>
+					<OnPlatform.WinPhone>Default</OnPlatform.WinPhone>
+				</OnPlatform>
+			</ActivityIndicator.Color>
+		</ActivityIndicator>
+	</StackLayout>						
+</ContentPage>

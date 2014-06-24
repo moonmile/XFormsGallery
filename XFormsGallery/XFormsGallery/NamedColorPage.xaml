@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XFormsGallery.NamedColorPage">
+	<StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+		<Label Font="Large" XAlign="End" Text="{Binding Color.R, StringFormat='R = {0:F2}'}" />
+		<Label Font="Large" XAlign="End" Text="{Binding Color.G, StringFormat='G = {0:F2}'}" />
+		<Label Font="Large" XAlign="End" Text="{Binding Color.B, StringFormat='B = {0:F2}'}" />
+	</StackLayout>
+	<BoxView WidthRequest="100" HeightRequest="100" HorizontalOptions="Center"
+		Color="{Binding Color}" ></BoxView>
+	<StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+		<Label Font="Large" XAlign="End" Text="{Binding Color.Hue, StringFormat='Hue = {0:F2}'}" />
+		<Label Font="Large" XAlign="End" Text="{Binding Color.Saturation, StringFormat='Saturation = {0:F2}'}" />
+		<Label Font="Large" XAlign="End" Text="{Binding Color.Luminosity, StringFormat='Luminosity = {0:F2}'}" />
+	</StackLayout>
+</ContentPage>

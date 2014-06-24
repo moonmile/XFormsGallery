@@ -1,0 +1,13 @@
+D:\git\XFormsGallery\XFormsGallery\XFormsGallery.iOS\bin\iPhoneSimulator\Debug\FormsTemplateiOS.exe
+D:\git\XFormsGallery\XFormsGallery\XFormsGallery.iOS\bin\iPhoneSimulator\Debug\FormsTemplateiOS.pdb
+D:\git\XFormsGallery\XFormsGallery\XFormsGallery.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+D:\git\XFormsGallery\XFormsGallery\XFormsGallery.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+D:\git\XFormsGallery\XFormsGallery\XFormsGallery.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+D:\git\XFormsGallery\XFormsGallery\XFormsGallery.iOS\bin\iPhoneSimulator\Debug\XFormsGallery.dll
+D:\git\XFormsGallery\XFormsGallery\XFormsGallery.iOS\bin\iPhoneSimulator\Debug\XFormsGallery.pdb
+D:\git\XFormsGallery\XFormsGallery\XFormsGallery.iOS\bin\iPhoneSimulator\Debug\XFormsGallery.dll.mdb
+D:\git\XFormsGallery\XFormsGallery\XFormsGallery.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.xml
+D:\git\XFormsGallery\XFormsGallery\XFormsGallery.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.xml
+D:\git\XFormsGallery\XFormsGallery\XFormsGallery.iOS\obj\iPhoneSimulator\Debug\XFormsGallery.iOS.csprojResolveAssemblyReference.cache
+D:\git\XFormsGallery\XFormsGallery\XFormsGallery.iOS\obj\iPhoneSimulator\Debug\FormsTemplateiOS.exe
+D:\git\XFormsGallery\XFormsGallery\XFormsGallery.iOS\obj\iPhoneSimulator\Debug\FormsTemplateiOS.pdb

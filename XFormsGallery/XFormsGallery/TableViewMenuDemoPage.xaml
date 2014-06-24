@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XFormsGallery.TableViewMenuDemoPage">
+	<StackLayout>
+		<Label Text="TableView for a menu" Font="50" HorizontalOptions="Center"></Label>
+		<TableView Intent="Menu">
+			<TableView.Root>
+				<TableRoot>
+					<TableSection Title="Views for Presentation">
+						<TextCell Text="Label"></TextCell>
+						<TextCell Text="Image"></TextCell>
+						<TextCell Text="BoxView"></TextCell>
+						<TextCell Text="WebView"></TextCell>
+					</TableSection>
+				</TableRoot>
+			</TableView.Root>
+		</TableView>
+	</StackLayout>						
+</ContentPage>

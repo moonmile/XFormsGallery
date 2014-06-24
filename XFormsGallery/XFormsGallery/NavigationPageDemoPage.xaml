@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XFormsGallery.NavigationPageDemoPage"
+					   Title="{Binding Name}"
+					   >
+	<StackLayout>
+		<Label Text="NavigationPage" Font="50" HorizontalOptions="Center"></Label>
+		<StackLayout HorizontalOptions="Center">
+			<Button Text=" Go to Label Demo Page " Font="Large" BorderWidth="1"></Button>
+			<Button Text=" Go to BoxView Demo Page " Font="Large" BorderWidth="1"></Button>
+			<Button Text=" Go to BoxView Demo Page " Font="Large" BorderWidth="1"></Button>
+			<Button Text=" Go to WebView Demo Page " Font="Large" BorderWidth="1"></Button>
+		</StackLayout>
+	</StackLayout>						
+</ContentPage>

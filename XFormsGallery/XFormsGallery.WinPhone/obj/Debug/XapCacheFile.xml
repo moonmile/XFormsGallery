@@ -1,0 +1,21 @@
+﻿<xapCache source="D:\git\XFormsGallery\XFormsGallery\XFormsGallery.WinPhone\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014/06/24 16:19:15">
+  <file source="D:\git\XFormsGallery\XFormsGallery\XFormsGallery.WinPhone\obj\Debug\XFormsGallery.WinPhone.dll" archivePath="XFormsGallery.WinPhone.dll" lastWriteTime="2014/06/24 16:19:14" />
+  <file source="D:\git\XFormsGallery\XFormsGallery\XFormsGallery.WinPhone\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2014/06/23 10:46:04" />
+  <file source="D:\git\XFormsGallery\XFormsGallery\XFormsGallery.WinPhone\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2014/06/23 10:46:04" />
+  <file source="D:\git\XFormsGallery\XFormsGallery\XFormsGallery.WinPhone\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2014/06/23 10:46:04" />
+  <file source="D:\git\XFormsGallery\XFormsGallery\XFormsGallery.WinPhone\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="2014/06/23 10:46:04" />
+  <file source="D:\git\XFormsGallery\XFormsGallery\XFormsGallery.WinPhone\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2014/06/23 10:46:04" />
+  <file source="D:\git\XFormsGallery\XFormsGallery\XFormsGallery.WinPhone\ide_xamarin_studio.png" archivePath="ide_xamarin_studio.png" lastWriteTime="2014/06/23 14:51:59" />
+  <file source="D:\git\XFormsGallery\XFormsGallery\XFormsGallery.WinPhone\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="2014/06/23 10:46:06" />
+  <file source="D:\git\XFormsGallery\XFormsGallery\XFormsGallery.WinPhone\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014/06/24 16:19:15" />
+  <file source="D:\git\XFormsGallery\XFormsGallery\XFormsGallery.WinPhone\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2014/06/23 10:46:04" />
+  <file source="D:\git\XFormsGallery\XFormsGallery\XFormsGallery.WinPhone\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2014/06/23 10:46:04" />
+  <file source="D:\git\XFormsGallery\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="2014/06/24 14:13:43" />
+  <file source="D:\git\XFormsGallery\packages\Xamarin.Forms.1.1.1.6206\lib\WP80\Xamarin.Forms.Core.dll" archivePath="Xamarin.Forms.Core.dll" lastWriteTime="2014/06/24 14:13:44" />
+  <file source="D:\git\XFormsGallery\packages\Xamarin.Forms.1.1.1.6206\lib\WP80\Xamarin.Forms.Platform.WP8.dll" archivePath="Xamarin.Forms.Platform.WP8.dll" lastWriteTime="2014/06/24 14:13:44" />
+  <file source="D:\git\XFormsGallery\packages\Xamarin.Forms.1.1.1.6206\lib\WP80\Xamarin.Forms.Xaml.dll" archivePath="Xamarin.Forms.Xaml.dll" lastWriteTime="2014/06/24 14:13:44" />
+  <file source="D:\git\XFormsGallery\XFormsGallery\XFormsGallery\bin\Debug\XFormsGallery.dll" archivePath="XFormsGallery.dll" lastWriteTime="2014/06/24 16:01:16" />
+  <file source="D:\git\XFormsGallery\packages\Xamarin.Forms.1.1.1.6206\lib\WP80\Xamarin.Forms.Core.xml" archivePath="Xamarin.Forms.Core.xml" lastWriteTime="2014/06/24 14:13:44" />
+  <file source="D:\git\XFormsGallery\packages\Xamarin.Forms.1.1.1.6206\lib\WP80\Xamarin.Forms.Xaml.xml" archivePath="Xamarin.Forms.Xaml.xml" lastWriteTime="2014/06/24 14:13:44" />
+  <file source="D:\git\XFormsGallery\XFormsGallery\XFormsGallery.WinPhone\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014/06/24 16:19:15" />
+</xapCache>

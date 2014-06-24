@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+				xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+				x:Class="XFormsGallery.HomePage"
+				Title="XAML Forms Gallery"
+             >
+	<TableView Intent="Menu">
+		<TableView.Root>
+			<TableSection Title="Views for Presentation">
+				<TextCell Text="Label" x:Name="cellLabel" ></TextCell>
+				<TextCell Text="Image" x:Name="cellImage"></TextCell>
+				<TextCell Text="BoxView" x:Name="cellBoxView"></TextCell>
+				<TextCell Text="WebView" x:Name="cellWebView"></TextCell>
+				<TextCell Text="Map" x:Name="cellMap"></TextCell>
+			</TableSection>
+			<TableSection Title="Views that Initiate Commands">
+				<TextCell Text="Button" x:Name="cellButton" ></TextCell>
+				<TextCell Text="SearchBar" x:Name="cellSearchBar"></TextCell>
+			</TableSection>
+			<TableSection Title="Views for Common Data Types">
+				<TextCell Text="Slider (double)" x:Name="cellSlider" ></TextCell>
+				<TextCell Text="Stepper (double)" x:Name="cellStepper"></TextCell>
+				<TextCell Text="Switch (bool)" x:Name="cellSwitch"></TextCell>
+				<TextCell Text="DatePicker" x:Name="cellDatePicker"></TextCell>
+				<TextCell Text="TimePicker" x:Name="cellTimePicker"></TextCell>
+			</TableSection>
+			<TableSection Title="Views for Editing Text">
+				<TextCell Text="Entry (single line)" x:Name="cellEntry"></TextCell>
+				<TextCell Text="Editor (multiple lines)" x:Name="cellEditor"></TextCell>
+			</TableSection>
+			<TableSection Title="Views to Indicate Activity">
+				<TextCell Text="ActivityIndicator" x:Name="cellActivityIndicator" ></TextCell>
+				<TextCell Text="ProgressBar" x:Name="cellProgressBar"></TextCell>
+			</TableSection>
+			<TableSection Title="Views that Display Collections">
+				<TextCell Text="Picker" x:Name="cellPicker"></TextCell>
+				<TextCell Text="ListView" x:Name="cellListView"></TextCell>
+				<TextCell Text="TableView for a menu" x:Name="cellTableViewMenu"></TextCell>
+				<TextCell Text="TableView for a form" x:Name="cellTableViewForm"></TextCell>
+			</TableSection>
+			<TableSection Title="Cells">
+				<TextCell Text="TextCell" x:Name="cellTextCell"></TextCell>
+				<TextCell Text="ImageCell" x:Name="cellImageCell"></TextCell>
+				<TextCell Text="SwitchCell" x:Name="cellSwitchCell"></TextCell>
+				<TextCell Text="EntryCell"  x:Name="cellEntryCell"></TextCell>
+			</TableSection>
+			<TableSection Title="Layouts with Single Content">
+				<TextCell Text="ContentView" x:Name="cellContentView"></TextCell>
+				<TextCell Text="Frame" x:Name="cellFrame"></TextCell>
+				<TextCell Text="ScrollView" x:Name="cellScrollView"></TextCell>
+			</TableSection>
+			<TableSection Title="Layouts with Multiple Children">
+				<TextCell Text="StackLayout" x:Name="cellStackLayout"></TextCell>
+				<TextCell Text="AbsoluteLayout" x:Name="cellAbsoluteLayout"></TextCell>
+				<TextCell Text="Grid" x:Name="cellGrid"></TextCell>
+				<TextCell Text="RelativeLayout" x:Name="cellRelativeLayout"></TextCell>
+			</TableSection>
+			<TableSection Title="Pages">
+				<TextCell Text="ContentPage" x:Name="cellContentPage"></TextCell>
+				<TextCell Text="NavigationPage" x:Name="cellNavigationPage"></TextCell>
+				<TextCell Text="MasterDetailPage" x:Name="cellMasterDetailPage"></TextCell>
+				<TextCell Text="TabbedPage" x:Name="cellTabbedPage"></TextCell>
+				<TextCell Text="CarouselPage" x:Name="cellCarouselPage"></TextCell>
+			</TableSection>
+		</TableView.Root>
+	</TableView>
+</ContentPage>
