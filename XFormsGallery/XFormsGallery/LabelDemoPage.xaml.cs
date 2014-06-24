@@ -7,11 +7,11 @@ using Xamarin.Forms;
 
 namespace XFormsGallery
 {
-    public partial class LabelDemoPage
+public partial class LabelDemoPage
+{
+    public LabelDemoPage()
     {
-        public LabelDemoPage()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
+}
 }

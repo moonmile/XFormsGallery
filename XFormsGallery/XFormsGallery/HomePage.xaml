@@ -2,8 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
 				xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 				x:Class="XFormsGallery.HomePage"
-				Title="XAML Forms Gallery"
-             >
+				Title="XAML Forms Gallery">
 	<TableView Intent="Menu">
 		<TableView.Root>
 			<TableSection Title="Views for Presentation">
